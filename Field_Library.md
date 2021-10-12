@@ -44,6 +44,7 @@
 **RUL Prediction_Industry Field**
 - https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1020400323.nh&v=6FTACn1uZ3kFN%25mmd2F1iZry4xN5dw19GEOQ9C%25mmd2BaQuW1cZGqrEFu9Xj6HkonTc%25mmd2BzjzuII
 - https://github.com/ddrrrr/projectRUL
+- https://www.sciencedirect.com/science/article/pii/S0888327017305988#b0720
 
 **File System Setting**
 - https://docs.pyfilesystem.org/en/latest/index.html
