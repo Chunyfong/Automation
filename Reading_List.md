@@ -11,6 +11,10 @@
 - https://www.cs.ucr.edu/~eamonn/time_series_data_2018/
 - https://arxiv.org/pdf/1810.07758.pdf
 
+**LSTM**
+- https://stackoverflow.com/questions/68371579/how-to-reshape-data-for-lstm-time-series-multi-class-classification
+- https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
 
 **UCSC DNA**
 - https://genome.ucsc.edu/index.html
