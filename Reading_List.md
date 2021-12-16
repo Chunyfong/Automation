@@ -26,6 +26,6 @@
 - https://snoopy30485.github.io/2018/06/20/GCP-%E7%B6%B2%E8%B7%AF/
 
 
-**RUL**
-
+**RUL & PDM**
+https://hal.archives-ouvertes.fr/hal-01324587/document
 https://gallery.azure.ai/Experiment/Predictive-Maintenance-Step-2B-of-3-train-and-evaluate-binary-classification-models-2
