@@ -1,10 +1,3 @@
-**To Read - Book List**
-- The Memoirs of Casanova
-- Les Liaisons dangereuses
-
-
-**Reading Link**
-- https://www.goodreads.com/book/similar/67400971-the-memoirs-of-casanova-complete
 
 **Time - Series_ Classification**
 - https://www.timeseriesclassification.com/description.php?Dataset=BeetleFly
@@ -31,3 +24,8 @@
 
 **GCP VM**
 - https://snoopy30485.github.io/2018/06/20/GCP-%E7%B6%B2%E8%B7%AF/
+
+
+**RUL**
+
+https://gallery.azure.ai/Experiment/Predictive-Maintenance-Step-2B-of-3-train-and-evaluate-binary-classification-models-2
