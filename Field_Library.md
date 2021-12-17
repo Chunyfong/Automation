@@ -38,13 +38,19 @@
 - https://datatonic.com/insights/machine-learning-predictive-maintenance/
 - https://datatonic.com/insights/machine-learning-predictive-maintenance-hard-drive-failure/?utm_source=predictive_maintenance_part1_blog&utm_medium=referral&utm_campaign=predictive_maintenance_part2_blog&utm_term=
 
--Pdm Paper: https://www.sciencedirect.com/science/article/abs/pii/S0360835219304838
+**Pdm Paper**
+- https://www.sciencedirect.com/science/article/abs/pii/S0360835219304838
 - https://www.terasoft.com.tw/videos/predictive_maintenance_part_3_remaining_useful_life_estimation.asp
 
 **RUL Prediction_Industry Field**
 - https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1020400323.nh&v=6FTACn1uZ3kFN%25mmd2F1iZry4xN5dw19GEOQ9C%25mmd2BaQuW1cZGqrEFu9Xj6HkonTc%25mmd2BzjzuII
 - https://github.com/ddrrrr/projectRUL
 - https://www.sciencedirect.com/science/article/pii/S0888327017305988#b0720
+
+** Pdm Nasa Turbo Fan Example using Microsoft ML Classics **
+- https://gallery.azure.ai/Experiment/Predictive-Maintenance-Step-2B-of-3-train-and-evaluate-binary-classification-models-2
+- https://studio.azureml.net/Home/ViewWorkspaceCached/664d668863d345da9d32290c23366592#Workspaces/Experiments/Experiment/664d668863d345da9d32290c23366592.f-id.8a28870c557d4796a013d3dca5b6050f/ViewExperiment
+
 
 **File System Setting**
 - https://docs.pyfilesystem.org/en/latest/index.html
