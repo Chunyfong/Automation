@@ -35,4 +35,3 @@ down  = down ['ID'].values.tolist()
 len(down)
 Ms = totcount.Mach_ID.isin(down)
 filtered_down = totcount[Ms]
-
