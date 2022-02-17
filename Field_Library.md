@@ -24,7 +24,7 @@
 **Merge With Key**
 - https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#more-concatenating-with-group-keys
 
-**Auto_Label & Entity_Set**:
+**Auto_Label & Entity_Set**
 - https://featuretools.alteryx.com/en/stable/generated/featuretools.EntitySet.entity_from_dataframe.html
 -  
 
