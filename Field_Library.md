@@ -19,9 +19,7 @@
 
 **Usuful by too long to read**
 - https://people.duke.edu/~ccc14/sta-663/MCMC.html
-- 1
-- 2
-- 
+
 
 **Merge With Key**
 - https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#more-concatenating-with-group-keys
@@ -37,6 +35,7 @@
 - https://biswajitsahoo1111.github.io/rul_codes_open/
 - https://datatonic.com/insights/machine-learning-predictive-maintenance/
 - https://datatonic.com/insights/machine-learning-predictive-maintenance-hard-drive-failure/?utm_source=predictive_maintenance_part1_blog&utm_medium=referral&utm_campaign=predictive_maintenance_part2_blog&utm_term=
+- https://www.mdpi.com/1424-8220/21/3/932/pdf
 
 **Pdm Paper**
 - https://www.sciencedirect.com/science/article/abs/pii/S0360835219304838
