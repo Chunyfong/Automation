@@ -1,10 +1,8 @@
 **DateTime**
 - https://stackoverflow.com/questions/16286991/converting-yyyy-mm-dd-hhmmss-date-time
 
-
 **Pandas_Cookbook**
 - https://pandas.pydata.org/pandas-docs/dev/user_guide/cookbook.html#timeseries
-
 
 **Index & Select**
 - https://www.ritchieng.com/pandas-multi-criteria-filtering/
@@ -12,22 +10,17 @@
 **Filter is in**
 - https://www.kite.com/python/answers/how-to-filter-a-pandas-dataframe-with-a-list-by-%60in%60-or-%60not-in%60-in-python
 
-
 **Resample Example**
 - https://stackoverflow.com/questions/49565400/resample-rows-for-missing-dates-and-forward-fill-values-in-all-columns-except-on/49565456#49565456
 
-
 **Usuful by too long to read**
 - https://people.duke.edu/~ccc14/sta-663/MCMC.html
-
 
 **Merge With Key**
 - https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#more-concatenating-with-group-keys
 
 **Auto_Label & Entity_Set**
 - https://featuretools.alteryx.com/en/stable/generated/featuretools.EntitySet.entity_from_dataframe.html
--  
-
 
 **PDM**
 - https://biswajitsahoo1111.github.io/rul_codes_open/
@@ -46,7 +39,7 @@
 - https://github.com/ddrrrr/projectRUL
 - https://www.sciencedirect.com/science/article/pii/S0888327017305988#b0720
 
-** Pdm Nasa Turbo Fan Example using Microsoft ML Classics **
+**Pdm Nasa Turbo Fan Example using Microsoft ML Classics**
 - https://gallery.azure.ai/Experiment/Predictive-Maintenance-Step-2B-of-3-train-and-evaluate-binary-classification-models-2
 - https://studio.azureml.net/Home/ViewWorkspaceCached/664d668863d345da9d32290c23366592#Workspaces/Experiments/Experiment/664d668863d345da9d32290c23366592.f-id.8a28870c557d4796a013d3dca5b6050f/ViewExperiment
 
