@@ -23,8 +23,12 @@ user =
 pw =
 database =
 
+
+
+
 #conn = pymssql.connect(server= server, user=user, password= pw, database= database)
 #Table
+#Linked Server can use this connection as well
 cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';UID='+user+';PWD='+ pw)
 cursor = cnxn.cursor()
 #Table 1
@@ -58,3 +62,7 @@ down  = pd.read_excel(' ')
 down  = down ['ID'].values.tolist()
 len(down)
 df_check = df2[df2.ID.isin(down)]
+
+
+call C:\Users\Anaconda3\Scripts\activate.bat
+start C:\Users\Anaconda3\envs\ML_Env1\python.exe "cd Python Script Path\Automation.py"
