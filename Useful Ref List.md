@@ -31,5 +31,8 @@ https://hal.archives-ouvertes.fr/hal-01324587/document
 https://gallery.azure.ai/Experiment/Predictive-Maintenance-Step-2B-of-3-train-and-evaluate-binary-classification-models-2
 
 
+**Setting Up Arch Linux**
+https://www.hackster.io/Ladvien/gpu-accelerated-deep-learning-environment-on-arch-linux-16631b
+
 **Churn Studies**
 https://forecast.global/insight/how-to-define-churn-in-a-non-contractual-business/
