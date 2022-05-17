@@ -23,16 +23,43 @@ user =
 pw =
 database =
 
-
-
+# For Azure Interactive Login
+db = ' '
+username ='secretid@'
+Authentication= 'ActiveDirectoryInteractive'
+driver= '{ODBC Driver 17 for SQL Server}'
 
 #conn = pymssql.connect(server= server, user=user, password= pw, database= database)
 #Table
 #Linked Server can use this connection as well
 cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';UID='+user+';PWD='+ pw)
 cursor = cnxn.cursor()
+
+# For Azure 
+conn = pyodbc.connect('DRIVER='+driver+
+';SERVER='+server+
+';PORT= ;DATABASE='+db+
+';UID='+username+
+';AUTHENTICATION='+Authentication
+)
+print(conn)
+
 #Table 1
 query = "SELECT *FROM [dbo].[Table1]"
+
+#SQL Para
+params = {
+    # all rows after this timestamp, 7 days ago relative to 'now'
+    'latest': datetime.datetime.today() - datetime.timedelta(days=30),
+    # if date *only* (no time component), use
+    # 'earliest': datetime.date.today() - datetime.timedelta(days=7),
+}
+
+df = pd.read_sql("""
+  bababa,
+  where [PARTS_DATETIME] >= %(latest)s
+    """, params=params, con=conn)
+
 
 #Date
 # Date
@@ -63,6 +90,6 @@ down  = down ['ID'].values.tolist()
 len(down)
 df_check = df2[df2.ID.isin(down)]
 
-
+#setting up Bat script for window schedule
 call C:\Users\Anaconda3\Scripts\activate.bat
 start C:\Users\Anaconda3\envs\ML_Env1\python.exe "cd Python Script Path\Automation.py"
