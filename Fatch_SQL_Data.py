@@ -77,6 +77,19 @@ filter_df = (df2.set_index('DATE').groupby('ID').apply(lambda d: d.reindex(pd.da
              .drop('ID', axis=1).reset_index('ID').ffill().bfill().reset_index())
 filter_df.rename(columns={"index":"Date"}, inplace=True)
 
+#
+# identify the rows with a 1 in the next 30 rows (per group)
+m = df[::-1].groupby('ID').rolling(30, min_periods=1)['Outcome'].max().droplevel(0)
+
+# identify the rows where 0 restarts
+df['Label'] = m.mask(m.eq(1), 'lab1')
+group = (df['Label'].eq(0)&df['Label'].ne(df['Label'].shift())).cumsum()
+
+# compute cumcount
+df['Csum'] = df.groupby(['ID', group]).cumcount().add(1)
+#
+filled_df[cols] = filled_df[cols].astype(int)
+
 # Merge
 df1 = m.merge(df2, on = ['ID', 'DATE'], how = 'left')
 #Fill the empty data for Right hand size
