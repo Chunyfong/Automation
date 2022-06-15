@@ -1,23 +1,23 @@
 **DateTime**
-- https://stackoverflow.com/questions/16286991/converting-yyyy-mm-dd-hhmmss-date-time
+1. https://stackoverflow.com/questions/16286991/converting-yyyy-mm-dd-hhmmss-date-time
 
 **Pandas_Cookbook**
-- https://pandas.pydata.org/pandas-docs/dev/user_guide/cookbook.html#timeseries
+1. https://pandas.pydata.org/pandas-docs/dev/user_guide/cookbook.html#timeseries
 
 **Index & Select**
-- https://www.ritchieng.com/pandas-multi-criteria-filtering/
+1. https://www.ritchieng.com/pandas-multi-criteria-filtering/
 
 **Filter is in**
-- https://www.kite.com/python/answers/how-to-filter-a-pandas-dataframe-with-a-list-by-%60in%60-or-%60not-in%60-in-python
+1. https://www.kite.com/python/answers/how-to-filter-a-pandas-dataframe-with-a-list-by-%60in%60-or-%60not-in%60-in-python
 
 **Resample Example**
-- https://stackoverflow.com/questions/49565400/resample-rows-for-missing-dates-and-forward-fill-values-in-all-columns-except-on/49565456#49565456
+1. https://stackoverflow.com/questions/49565400/resample-rows-for-missing-dates-and-forward-fill-values-in-all-columns-except-on/49565456#49565456
 
 **Usuful by too long to read**
-- https://people.duke.edu/~ccc14/sta-663/MCMC.html
+1. https://people.duke.edu/~ccc14/sta-663/MCMC.html
 
 **Merge With Key**
-- https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#more-concatenating-with-group-keys
+1. https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html#more-concatenating-with-group-keys
 
 **Pdm Nasa Turbo Fan Example using Microsoft ML Classics**
 1. https://gallery.azure.ai/Experiment/Predictive-Maintenance-Step-2B-of-3-train-and-evaluate-binary-classification-models-2
