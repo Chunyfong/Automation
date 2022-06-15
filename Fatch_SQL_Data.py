@@ -106,3 +106,7 @@ df_check = df2[df2.ID.isin(down)]
 #setting up Bat script for window schedule
 call C:\Users\Anaconda3\Scripts\activate.bat
 start C:\Users\Anaconda3\envs\ML_Env1\python.exe "cd Python Script Path\Automation.py"
+
+#Extremely fast folders mirror method
+#https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy
+ROBOCOPY "C:\folder_A" "C:\folder" /mir #/mov
