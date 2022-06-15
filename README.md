@@ -1,1 +1,1 @@
-*Storage of my work script & reference reading*
+*Just some of my work script to automate all the boring office Task*
