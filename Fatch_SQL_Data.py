@@ -4,6 +4,8 @@ import pyodbc
 import pandas as pd
 import numpy as np
 from sqlalchemy import create_engine
+from subprocess import call
+
 
 #Pandas Setting
 pd.set_option('float_format', '{:f}'.format)
@@ -109,4 +111,4 @@ start C:\Users\Anaconda3\envs\ML_Env1\python.exe "cd Python Script Path\Automati
 
 #Extremely fast folders mirror method
 #https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy
-ROBOCOPY "C:\folder_A" "C:\folder" /mir #/mov
+call(["robocopy", ROBOCOPY "C:\folder_A" "C:\folder_B" /mir #/mov])
