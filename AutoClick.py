@@ -16,6 +16,12 @@ import time
 #from subprocess import CREATE_NO_WINDOW
 from subprocess import call
 
+xw.App(visible=False)
+wb = xw.books.open(r'  .xlsm')
+macro = wb.macro("Get_Query")
+macro()
+wb.save(r'test.xlsx')
+wb.close()
 
 chrome_options = Options()
 #chrome_options.add_argument("--headless")
@@ -23,10 +29,10 @@ chrome_options.add_argument('--ignore-certificate-errors-spki-list')
 chrome_options.add_argument('start-maximized')
 chrome_options.add_argument("--disable-notifications")
 
+
 driver = webdriver.Chrome(options=chrome_options)
 driver.delete_all_cookies()
 wait = WebDriverWait(driver, 10)
-
 
 while True:
     try:
