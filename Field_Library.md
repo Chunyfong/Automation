@@ -73,3 +73,9 @@
 
 **Churn Studies**
 1. https://forecast.global/insight/how-to-define-churn-in-a-non-contractual-business/
+
+**C++ Setup**
+- https://www.msys2.org/
+- https://code.visualstudio.com/docs/languages/cpp
+- https://www.msys2.org/wiki/MSYS2-introduction/
+
