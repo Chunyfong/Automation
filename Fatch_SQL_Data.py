@@ -46,6 +46,10 @@ conn = pyodbc.connect('DRIVER='+driver+
 )
 print(conn)
 
+pt.sum(numeric_only=True, axis=0)
+df.iloc[:,2:] = df.iloc[:,2:].astype("int32")
+
+
 #Table 1
 query = "SELECT *FROM [dbo].[Table1]"
 
