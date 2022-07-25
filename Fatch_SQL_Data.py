@@ -9,8 +9,9 @@ from subprocess import call
 
 #Pandas Setting
 pd.set_option('float_format', '{:f}'.format)
-pd.set_option('display.max_columns', 8)
 pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', 16)
+pd.set_option('display.width', 7000)
 
 "{:.2f}".format(5)
 
