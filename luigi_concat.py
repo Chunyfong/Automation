@@ -9,6 +9,7 @@ import os
 import shutil
 import gc
 
+
 # params = {'latest': datetime.datetime.today() - datetime.timedelta(days=100)}
 conn = pymssql.connect(
     host=r'',
