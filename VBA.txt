@@ -1,0 +1,27 @@
+#getting sharepoint list to csv table in VBA querry
+
+Sub Finder_Get_Query()
+    IQYFile = "C:\Users\xxxx.iqy"
+    Sheets("Sheet1").Activate
+    Cells.Clear
+    With ActiveSheet.QueryTables.Add(Connection:= _
+       "FINDER;" & IQYFile, Destination:=Range("A1"))
+        .BackgroundQuery = True
+        .TablesOnlyFromHTML = True
+        .Refresh BackgroundQuery:=False
+    End With
+    
+    Dim xSheet As Worksheet
+    Dim xList As ListObject
+    Set xSheet = ActiveWorkbook.ActiveSheet
+    For Each xList In xSheet.ListObjects
+        xList.Unlist
+    Next
+    Columns("A:E").Delete
+
+
+End Sub
+
+
+
+
