@@ -6,5 +6,5 @@
 - pandas, numpy, Dask DataFrame 
 #### For the Excel, os, path interaction
 - xlwings, win32,os, pathlib, glob
-#### Website Type, help me click with 1000+ godlike apm speed
+#### Website Type
 - Selenium, bs4, pygui, opencv 
