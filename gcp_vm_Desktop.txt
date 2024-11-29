@@ -1,0 +1,16 @@
+sudo apt-get update
+
+sudo DEBIAN_FRONTEND=noninteractive apt-get install -y xfce4 desktop-base dbus-x11 xscreensaver
+
+
+sudo apt-get install -y xrdp
+
+echo xfce4-session > ~/.xsession
+
+sudo systemctl restart xrdp
+
+
+gcloud compute start-iap-tunnel INSTANCE_NAME 3389 \
+    --local-host-port=localhost:13389 \
+    --zone=ZONE_NAME \
+    --project=PROJECT_ID
