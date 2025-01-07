@@ -1,12 +1,26 @@
 sudo apt-get update
 
+
+sudo apt-get install -y \
+    xrdp \
+    xorg \
+    awesome \
+    dbus-x11 \
+    xscreensaver
+
+
+# Configure xrdp session for AwesomeWM
+echo "awesome" > ~/.xsession
+chmod +x ~/.xsession
+
+
+echo "export DESKTOP_SESSION=awesome" > ~/.xsessionrc
+echo "export XDG_SESSION_TYPE=x11" >> ~/.xsessionrc
+
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y xfce4 desktop-base dbus-x11 xscreensaver
 
 
 sudo apt-get install -y xrdp
-
-echo xfce4-session > ~/.xsession
-
 sudo systemctl restart xrdp
 
 
