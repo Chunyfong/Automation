@@ -24,7 +24,4 @@ sudo apt-get install -y xrdp
 sudo systemctl restart xrdp
 
 
-gcloud compute start-iap-tunnel INSTANCE_NAME 3389 \
-    --local-host-port=localhost:13389 \
-    --zone=ZONE_NAME \
-    --project=PROJECT_ID
+gcloud compute start-iap-tunnel XXXX 3389 --local-host-port=localhost:13389
